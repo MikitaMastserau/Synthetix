@@ -1,0 +1,38 @@
+.main {
+   background-color: #345B48;
+   padding: 120px 0 425px;
+
+   .container {
+      max-width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   &__text {
+      padding: 30px 250px 0 0;
+      position: relative;
+
+      p {
+         color: rgba(255, 255, 255, 0.80);
+         font-size: 18.5px;
+         line-height: 30px;
+         letter-spacing: 0.4px;
+
+         strong {
+            font-family: "Basement Grotesque Bold";
+            color: #FFF;
+         }
+
+         span {
+            color: #FFF;
+         }
+      }
+
+      img {
+         filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, 0.5));
+         position: absolute;
+         top: -80px;
+         right: 0;
+      }
+   }
+}
