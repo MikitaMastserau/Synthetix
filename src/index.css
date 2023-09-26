@@ -1,0 +1,241 @@
+/* ----- Zeroing ----- */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/*----- Fonts -----*/
+
+@font-face {
+  font-family: "Basement Grotesque Regular";
+  font-style: normal;
+  src: url(static/fonts/BasementGrotesque-Regular.woff2) format("woff2"),
+    url(static/fonts/BasementGrotesque-Regular.woff) format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Basement Grotesque Medium";
+  font-style: normal;
+  src: url(static/fonts/BasementGrotesque-Medium.woff2) format("woff2"),
+    url(static/fonts/BasementGrotesque-Medium.woff) format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Basement Grotesque Bold";
+  font-style: normal;
+  src: url(static/fonts/BasementGrotesque-Bold.woff2) format("woff2"),
+    url(static/fonts/BasementGrotesque-Bold.woff) format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Basement Grotesque Black";
+  font-style: normal;
+  src: url(static/fonts/BasementGrotesque-Black.woff2) format("woff2"),
+    url(static/fonts/BasementGrotesque-Black.woff) format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Neue Machina Light";
+  font-style: normal;
+  src: url(static/fonts/PPNeueMachina-PlainLight.woff2) format("woff2"),
+    url(static/fonts/PPNeueMachina-PlainLight.woff) format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Neue Machina Regular";
+  font-style: normal;
+  src: url(static/fonts/PPNeueMachina-PlainRegular.woff2) format("woff2"),
+    url(static/fonts/PPNeueMachina-PlainRegular.woff) format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Neue Machina Bold";
+  font-style: normal;
+  src: url(static/fonts/PPNeueMachina-PlainUltrabold.woff2) format("woff2"),
+    url(static/fonts/PPNeueMachina-PlainUltrabold.woff) format("woff");
+  font-display: fallback;
+}
+
+/* ----- General styles -----*/
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  color: #345B48;
+  font-family: "Basement Grotesque Regular";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 22px;
+}
+
+h1 {
+  color: #FFF;
+  font-family: "Neue Machina Bold";
+  font-size: 123px;
+  line-height: 160px;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+}
+
+h1 span {
+  font-family: "Neue Machina Regular";
+  font-size: 83px;
+  line-height: 108px;
+  letter-spacing: 1.8px;
+}
+
+h2 {
+  font-family: "Neue Machina Bold";
+  font-size: 90px;
+  line-height: 120px;
+  letter-spacing: 1.8px;
+  text-transform: capitalize;
+}
+
+h2 span {
+  font-family: "Neue Machina Light";
+  font-size: 80px;
+  line-height: 104px;
+  letter-spacing: 1.6px;
+}
+
+h3 {
+  font-family: "Neue Machina Regular";
+  font-size: 70px;
+  line-height: 91px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+h3 span {
+  font-family: "Neue Machina Bold";
+}
+
+h4 {
+  font-family: "Neue Machina Bold";
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+p {
+  color: #345B48;
+  font-family: "Basement Grotesque Regular";
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+}
