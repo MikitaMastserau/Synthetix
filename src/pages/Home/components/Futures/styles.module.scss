@@ -1,0 +1,53 @@
+.futures {
+   padding: 100px 0;
+
+   .container {
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   &__hat {
+      max-width: 620px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      >div {
+         color: #DFFF9D;
+         background-color: #51aa7f;
+         border: 1px solid rgba(13, 13, 13, 0.10);
+         box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+         padding: 30px;
+         margin-bottom: 20px;
+
+         p {
+            font-size: 18px;
+            color: #DFFF9D;
+
+            &:first-of-type {
+               font-size: 22px;
+            }
+         }
+      }
+   }
+
+   &__text {
+      max-width: 440px;
+
+      h4 {
+         padding: 30px 0 10px;
+
+         &:first-of-type {
+            padding: 20px 0 10px;
+         }
+      }
+
+      p {
+         opacity: 0.8;
+      }
+   }
+}

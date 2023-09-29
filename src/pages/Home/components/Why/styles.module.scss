@@ -1,0 +1,37 @@
+.why {
+   padding: 140px 0 120px;
+
+   .container {
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   &__hat {
+      max-width: 545px;
+
+      img {
+         padding-top: 30px;
+      }
+   }
+
+   &__content {
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 10px;
+   }
+
+   &__card {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      p {
+         opacity: 0.8;
+      }
+   }
+}

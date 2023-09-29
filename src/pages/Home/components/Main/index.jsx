@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export const Main = () => {
    return (
-      <section className={styles.main}>
+      <main className={styles.main}>
          <div className={styles.container}>
             <h1>The Derivаtives <span>Liquidity Protocol</span></h1>
             <div className={styles.main__text}>
@@ -12,6 +12,6 @@ export const Main = () => {
                <img src={circle} alt="" />
             </div>
          </div>
-      </section>
+      </main>
    );
 };
