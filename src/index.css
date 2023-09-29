@@ -174,49 +174,45 @@ body {
 }
 
 body {
-  color: #345B48;
   font-family: "Basement Grotesque Regular";
   font-size: 14px;
   font-style: normal;
   line-height: 22px;
+  color: #345B48;
+  background-color: #DADFE5;
 }
 
 h1 {
-  color: #FFF;
   font-family: "Neue Machina Bold";
-  font-size: 123px;
+  font-size: 120px;
   line-height: 160px;
-  letter-spacing: 2.8px;
   text-transform: capitalize;
+  color: #FFF;
 }
 
 h1 span {
   font-family: "Neue Machina Regular";
-  font-size: 83px;
-  line-height: 108px;
-  letter-spacing: 1.8px;
+  font-size: 82px;
+  line-height: 100px;
 }
 
 h2 {
   font-family: "Neue Machina Bold";
-  font-size: 90px;
-  line-height: 120px;
-  letter-spacing: 1.8px;
+  font-size: 80px;
+  line-height: 100px;
   text-transform: capitalize;
 }
 
 h2 span {
   font-family: "Neue Machina Light";
-  font-size: 80px;
-  line-height: 104px;
-  letter-spacing: 1.6px;
+  font-size: 70px;
+  line-height: 80px;
 }
 
 h3 {
   font-family: "Neue Machina Regular";
-  font-size: 70px;
-  line-height: 91px;
-  letter-spacing: 1.4px;
+  font-size: 60px;
+  line-height: 80px;
   text-transform: uppercase;
 }
 
@@ -226,16 +222,14 @@ h3 span {
 
 h4 {
   font-family: "Neue Machina Bold";
-  font-size: 25px;
-  line-height: 33px;
-  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 26px;
   text-transform: capitalize;
 }
 
 p {
-  color: #345B48;
   font-family: "Basement Grotesque Regular";
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
-  letter-spacing: 0.15px;
+  color: #345B48;
 }

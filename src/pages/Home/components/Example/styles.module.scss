@@ -1,0 +1,39 @@
+.example {
+   background: linear-gradient(to bottom, #345B48 38%, #DADFE5 12%, #DADFE5 50%);
+
+   .container {
+      max-width: 1230px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   &__map {
+      position: relative;
+   }
+
+   &__price {
+      background-color: #E7F760;
+      box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.6);
+      padding: 20px 30px;
+      transform: rotate(-13deg);
+      position: absolute;
+      top: -30px;
+      left: -30px;
+
+      p:first-of-type {
+         font-family: "Neue Machina Regular";
+         font-size: 18px;
+         line-height: 28px;
+         text-transform: uppercase;
+         color: #000;
+      }
+
+      p:last-of-type {
+         font-family: "Basement Grotesque Black";
+         font-size: 34px;
+         line-height: 54px;
+         text-transform: uppercase;
+         color: #000;
+      }
+   }
+}
