@@ -37,3 +37,31 @@
       }
    }
 }
+
+@media screen and (max-width: 1199px) {
+   .example {
+      &__price {
+         padding: 15px 15px 10px;
+         top: -70px;
+         left: 0;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .example {
+      &__price {
+         top: -50px;
+
+         p:first-of-type {
+            font-size: 14px;
+            line-height: 20px;
+         }
+
+         p:last-of-type {
+            font-size: 20px;
+            line-height: 30px;
+         }
+      }
+   }
+}

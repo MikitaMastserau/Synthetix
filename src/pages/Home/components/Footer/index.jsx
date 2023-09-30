@@ -25,7 +25,7 @@ export const Footer = () => {
             <div className={styles.footer__links}>
                <a href="https://github.com/MikitaMastserau" target="_blanc"><img src={githubIcon} alt="" /></a>
                <a href="https://www.linkedin.com/in/mikita-mastserau/" target="_blanc"><img src={linkedinIcon} alt="" /></a>
-               <a href="https://t.me/MikitaMastserau" target="_blanc"><img src={telegramIcon} alt="" /></a>
+               <a href="https://t.me/MM_Mikita" target="_blanc"><img src={telegramIcon} alt="" /></a>
                <a href="#footer"><img src={facebook} alt="" /></a>
                <a href="#footer"><img src={twitter} alt="" /></a>
                <a href="#footer"><img src={insta} alt="" /></a>
