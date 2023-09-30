@@ -38,3 +38,22 @@
       color: rgba(255, 255, 255, 0.5);
    }
 }
+
+@media screen and (max-width: 1199px) {
+   .footer {
+      &__links {
+         gap: 20px;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .footer {
+      .container {
+         flex-direction: column;
+         align-items: center;
+         gap: 30px;
+         padding: 30px 15px;
+      }
+   }
+}

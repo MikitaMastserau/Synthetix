@@ -12,7 +12,7 @@
       padding: 30px 250px 0 0;
       position: relative;
 
-      p {
+      >p {
          color: rgba(255, 255, 255, 0.80);
          font-size: 18.5px;
          line-height: 30px;
@@ -26,12 +26,93 @@
             color: #FFF;
          }
       }
+   }
 
-      img {
-         filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, 0.5));
+   &__image {
+      filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, 0.5));
+      position: absolute;
+      top: -80px;
+      right: 0;
+      pointer-events: none;
+      user-select: none;
+
+      img:first-of-type {
+         animation: 8s linear 0s normal none infinite running spin;
+      }
+
+      @keyframes spin {
+         0% {
+            transform: rotate(0deg);
+         }
+
+         100% {
+            transform: rotate(360deg);
+         }
+      }
+
+      img:last-of-type {
          position: absolute;
-         top: -80px;
-         right: 0;
+         top: 67.5px;
+         left: 67.5px;
+      }
+   }
+}
+
+@media screen and (max-width: 1199px) {
+   .main {
+      .container {
+         padding: 0 30px;
+      }
+
+      h1 {
+         font-size: 110px;
+         line-height: 120px;
+
+         span {
+            font-size: 75px;
+            line-height: 90px;
+         }
+      }
+
+      &__text {
+         padding: 40px 250px 0 0;
+      }
+
+      &__image {
+         top: -40px;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .main {
+      padding: 100px 0;
+
+      h1 {
+         max-width: 500px;
+         font-size: 50px;
+         line-height: 80px;
+         margin: 0 auto;
+
+         span {
+            font-size: 45px;
+            line-height: 50px;
+         }
+      }
+
+      &__text {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 30px 0 0;
+
+         p {
+            max-width: 500px;
+         }
+      }
+
+      &__image {
+         position: sticky;
       }
    }
 }
